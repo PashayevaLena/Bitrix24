@@ -1,0 +1,712 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root {
+    --man: 'Manrope', sans-serif;
+    --mont: 'Montserrat', sans-serif;
+}
+.slider:before{
+    display: none !important;
+}
+#headerBack {
+    background-image: url(assets/images/Frame\ 155.png);
+    background-repeat: no-repeat;
+    /* background-size: 100% 100%; */
+    background-size: cover;
+}
+
+.slick-slider{
+    margin: auto;
+}
+.slick-prev{
+    display: none !important;
+}
+.slider-track{
+    display: none !important;
+    content: none !important;
+}
+.flags img{
+   width: 2.5%;
+   padding-top: 150px;
+   margin-left: 4px;
+    
+}
+#headerBack h1 {
+    font: 800 60px var(--man);
+    font-size: 70px;
+    padding-bottom: 35px;
+    line-height: 80px;
+}
+
+/* input ::placeholder {
+    color: #757095;
+} */
+
+.headerP {
+    font: 400 20px var(--man);
+    padding-bottom: 20px;
+    line-height: 35px;
+    color: #757095;
+}
+.Referance-container{
+    overflow: hidden;
+}
+.Referance {
+    font: 400 20px var(--man);
+    line-height: 35px;
+    color: #757095;
+}
+#getEmail label {
+    font: 400 17px var(--man);
+    line-height: 30px;
+}
+#floatingInput {
+    margin-bottom: 45px;
+}
+#getEmail .form-control {
+    width: 30%;
+    border: none;
+}
+#getEmail input {
+    display: inline;
+}
+#getEmail #send {
+    /* margin-left: -100px; */
+    padding: 10px 30px;
+    background-color: #1B1C31;
+    color: #FFFFFF;
+    border: none;
+}
+#headerBack h4 {
+    font: 600 22px var(--man);
+    padding-top: 100px;
+    line-height: 26.82px;
+}
+/* #headerBack2{
+    padding-top: 200px;
+    
+} */
+/* .GreatService{
+    padding-bottom: 500px;
+} */
+/* #headerBack2 img{
+    padding-left:  20px;
+} */
+.vl {
+    border-left: 1px solid #C4C4C4;
+    height: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    /* display: inline; */
+}
+.all-referance button{
+    font: 700 16px var(--man);
+    padding: 13px 50px;
+    background-color: #4844FF;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 50px;
+    margin-top: 35px;
+}
+.all-referance .referance-logo img{
+    width: 50%;
+}
+#bitrixVideo iframe {
+    display: block;
+    margin:70px auto;
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: rgba(25,25,25,.04) 0 0 1px 0,rgba(0,0,0,.1) 0 3px 4px 0;
+}
+#ChooseBitrix button {
+    padding: 20px 50px;
+    background-color: #4844FF;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 50px;
+    margin-top: 75px;
+}
+#ChooseBitrix {
+    background-image: url('assets/images/Frame\ 166.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#ChooseBitrix p {
+    font: 500 16px var(--man);
+    color: #64607D;
+    line-height: 30px;
+    letter-spacing: -2%;
+}
+.advantages1 {
+        margin-top: 511px;
+}
+.advantages2 {
+    margin-top: 306px;
+}
+/* ------------------------------Computers */
+.container2{
+    /* width: 100%; */
+    margin: auto;
+    overflow: hidden;
+}
+#computers {
+    width: 100%;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+/* #computers img {
+    width: 150%;
+    margin-left: 336px;
+} */
+
+/*------------------------------- Css Prices------------------------------ */
+#prices h2 {
+    font: 800 42px var(--man);
+    padding-bottom: 52px;
+    line-height: 60px;
+    letter-spacing: -3%;
+}
+#prices p {
+    font: 500 16px var(--man);
+    color: #64607D;
+    line-height: 30px;
+    letter-spacing: -2%;
+}
+#computers .carousel div img {
+    width: 100%;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+/* .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+} */
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #2196F3;
+}
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+input:checked+.slider:before {
+    transform: translateX(26px);
+}
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+/* ---------------------------------------Prices */
+
+
+.cards h3 {
+    font: 700 28px var(--man);
+    padding-top: 28px;
+    line-height: 28px;
+    letter-spacing: -3%;
+}
+.cards p {
+    font: 500 20px var(--man);
+    line-height: 28px;
+    letter-spacing: -3%;
+    text-align: center;
+    padding-top: 15px;
+    /* padding-bottom: 30px; */
+}
+.cards h4 {
+    font: 800 32px var(--man);
+    line-height: 28px;
+    letter-spacing: -3%;
+}
+.plan-header {
+    border-radius: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+}
+li {
+    list-style-type: none;
+}
+.plan-features ol {
+    margin-top: 13px;
+    margin-bottom: 24px;
+    border-left: 1px solid #C4C4C4;
+}
+hr {
+    margin-right: 16px;
+}
+.plan-features ol li {
+    font: 500 18px var(--man);
+    padding-top: 16px;
+    font-weight: 500;
+    color: #64607D;
+    /* Natroyaa baxarsan----------------------------------------------- */
+}
+.plan-features ul li {
+    font: 500 18px var(--man);
+    line-height: 30px;
+    color: #64607D;
+
+}
+/* .plan-features-li{
+    border-bottom: 1px solid #C4C4C4;
+    padding-bottom: 10px;
+    margin-right: 20px;
+} */
+/* ////////////////////////////////// */
+
+#Program {
+    background: linear-gradient(95.58deg, #09C2EE 0%, #68CF7A 100%);
+}
+.ButaBitrix {
+    font: 700 14px var(--man);
+    padding-top: 76px;
+    padding-bottom: 30px;
+    line-height: 17.07px;
+    color: #ffff;
+}
+#Program h1 {
+    font: 800 50px var(--man);
+    color: #fff;
+    line-height: 60px;
+    letter-spacing: -3%;
+    padding-bottom: 30px;
+}
+
+.business {
+    font: 500 20px var(--man);
+    color: #fff;
+    line-height: 30px;
+    letter-spacing: -2%;
+    padding-bottom: 80px;
+}
+#Price-section{
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+.getPrice h2 {
+    font: 800 36px var(--man);
+    line-height: 75px;
+}
+.getPrice p {
+    font: 500 21px var(--man);
+    line-height: 32.5px;
+}
+.pricing-items{
+    margin: auto;
+}
+.pricing-item {
+    border: 4px solid hsla(191, 91%, 48%, 1);
+    border-radius: 60px;
+    width: 225.07px;
+    height: 215.07px;
+}
+.pricing-item-title p {
+    font: 500 20px var(--man);
+    padding-top: 40px;
+    padding-bottom: 5px;
+}
+
+.pricing-item-price-currency {
+    font: 800 45px var(--man);
+    margin-bottom: 20px;
+}
+
+.pricing-item-price-amount {
+    font: 800 45px var(--man);
+    line-height: 75px;
+}
+.form-slider span {
+    font: 500 21px var(--man);
+    line-height: 66.5px;
+    color: #9B9B9B;
+    display: block;
+}
+.pricing-slider input {
+    background-color: #909cb5;
+    /* width: 1200px; */
+    height: 2px;
+}
+.pricing-slider .pricing-slider-value {
+    color: #0085AF;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #909cb5;
+    --thumb-size: 36px;
+}
+/* .input-range{
+    background-color: #0085AF;
+    height: 3px;
+    color: #0085AF;
+    outline: none;
+} */
+/* input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: goldenrod;
+    margin-top: -4px;
+} */
+
+#Program input {
+    background-color: rgba(242, 243, 244, .2);
+    border-radius: 5px;
+    margin-bottom: 18px;
+    outline: none;
+    color:white;
+}
+
+.Programinputs {
+    padding-top: 70px;
+    text-align: center;
+    width: 100%;
+}
+
+/* #Program input ::placeholder{
+    color: #ffffff;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -2%;
+    opacity: 100%;
+    padding-left: 20px;
+} */
+
+
+input::placeholder {
+    color: #fff;
+    font-size: 1.2em;
+    font-style: italic;
+  }
+#Program input {
+    padding: 10px;
+    width: 370px;
+    border: none;
+}
+
+
+#Program button {
+    font: 700 16px var(--man);
+    width: 370px;
+    border: none;
+    padding: 10px;
+    background-color: #4844FF;
+    color: #fff;
+    display: inline-block;
+    line-height: 30px;
+    border-radius: 5px;
+}
+
+/* ------------------------------------- */
+footer {
+    padding-top: 122px;
+}
+.ButaGrupFooterLogo {
+    width: 179px;
+    padding-bottom: 23px;
+}
+.footerText {
+    color: #757095;
+    text-align: justify;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+}
+.footerCertifcate {
+    width: 213px;
+}
+/* .pages {
+    padding-left: 83px;
+    padding-right: 120px;
+} */
+
+.pages h6 {
+    font: 700 24px var(--man);
+    /* text-align: center; */
+    /* margin-right: 5px; */
+}
+
+/* .footerDiv {
+    padding-left: 10%;
+    padding-right: 5%;
+} */
+
+/* .pages ul {
+    padding-top: 30px;
+} */
+ .pages li {
+    padding-top: 10px;
+    list-style-type: none;
+    color: #181433;
+} 
+
+.reserv {
+    font: 500 16px var(--man);
+    line-height: 26px;
+    letter-spacing: -2%;
+    text-align: center;
+    color: #000;
+}
+.DivText a i {
+    color: #3734A9;
+    padding-left: 15px;
+    font-size: 23px;
+}
+
+
+
+/* _________Responsivlik____________ */
+
+@media only screen and (max-width: 1440px){
+    #ChooseBitrix {
+        background-image: url('assets/images/Frame\ 169.png') !important;
+    }
+
+
+}
+
+@media only screen and (min-width: 1400px) {
+    #headerBack {
+        background-image: url(assets/images/Back.png) !important;
+        background-size: cover;
+    }
+
+    .headerP {
+        width: 50% !important;
+    }
+
+    /* ThirdSection-------------------------- */
+
+
+}
+@media only screen and (min-width: 992px){
+    #ChooseBitrix{
+        background-image: url("assets/images/2.png");
+    }
+    .vl {
+        margin-left: -4px;
+        margin-right: 38px;
+    }
+    #bitrixVideo iframe{
+        width: 50%;
+    }
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    #headerBack {
+        background-image: url(assets/images/Frame\ 124.png);
+    }
+
+    .headerP {
+        width: 50%;
+    }
+    .picturess{
+        background: none !important;
+    }
+    .picturess img {
+        width: 50%;
+    }
+    .slider{
+        background-color: none !important;
+    }
+    /* ThirdSection---------------------------------- */
+    /* #ChooseBitrix{
+        background-image: url(assets/images/Frame\ 169.png) !important;
+    } */
+
+
+    /* Footer----------------------- */
+    .footerCertifcate {
+        padding-top: 36px;
+        margin-left: 45px;
+    }
+
+}
+@media only screen and (min-width: 992px){
+.vl {
+    margin-left: 35px;
+    margin-right: -53px;
+}
+}
+
+
+@media only screen and (max-width: 768px) {
+    #headerBack {
+        background-image: url(assets/images/Frame\ 125.png);
+    }
+
+    #headerBack h1 {
+        color: #fff;
+        font-size: 40px;
+        text-align: center;
+        padding-top: 27px;
+    }
+
+    .headerP {
+        text-align: center;
+    }
+
+    .Referance {
+        text-align: center;
+    }
+    .registr-service{
+        text-align: center;
+    }
+
+    #getEmail .form-control {
+        width: 60%;
+    }
+
+    .picturess img {
+        width: 30%;
+    }
+    #computers .carousel div img {
+        width: 130%;
+    }
+
+    /* ThirdSection---------------------------------- */
+    #ChooseBitrix {
+        background-image: url("assets/images/Frame\ 170.png") !important;
+    }
+    #ChooseBitrix button{
+        margin-top: 10px;
+    }
+    
+.advantages1 {
+    margin-top: 41px;
+       
+}
+
+.advantages2 {
+margin: 26px 0; 
+}
+/* --------------------------------------------------------------------------- */
+.getPrice h2 {
+    font-size: 26px;
+    text-align: center;
+}
+.getPrice p {
+    text-align: center;
+}
+.pricing-item-price-currency{
+    font-size: 40px;
+}
+.pricing-item-price-amount{
+    font-size: 40px;
+}
+
+.pricing-slider input {
+    width: 600px;
+}
+    /* ---------------------------------------------------------------- */
+    .Programinputs input {
+        width: 300px !important;
+    }
+    .Programinputs button {
+        width: 300px !important;
+    }
+    .Programinputs{
+        padding-top: 30px;
+    }
+    #Program h1 {
+        text-align: center;
+    }
+    .business{
+        text-align: center;
+        padding-bottom: 0px;
+    }
+    /* ------------------------------------------------Footer */
+    .ButaGrupFooterLogo {
+        width: 234px;
+    }
+     
+}
+
+/* .cards .row>div {
+    display: inline-block;
+    white-space: nowrap;
+
+}
+
+@media (max-width: 992px) {
+   .cards .container-scroll {
+        overflow-x: auto;
+    }
+
+  .cards .container-scroll .cards .row {
+        width: 200vw;
+    }
+}
+
+@media (max-width: 600px) {
+   .cards .container-scroll {
+        overflow-x: auto;
+    }
+
+   .cards .container-scroll .cards .row {
+        width: 100vw;
+    }
+} */
+
+
+@media only screen and (max-width: 2560px){
+    .pricing-slider input {
+        width: 900px;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .pricing-slider input {
+        width: 700px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .pricing-slider input {
+        width: 400px;
+    }
+}
+@media only screen and (max-width: 425px){
+    .pricing-slider input {
+        width: 350px;
+    }
+}

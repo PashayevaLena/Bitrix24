@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitrix24</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section id="headerBack">
+        <div class="container">
+            <div class="row">
+                <div class="flags">
+                    <a href="#"><img src="assets/images/aze.webp" alt=""></a>
+                    <a href="#"><img src="assets/images/tr.webp" alt=""></a>
+                    <a href="#"><img src="assets/images/en.webp" alt=""></a>
+                </div>
+                <h1>
+                    Bitrix24'ün Rəsmi <br />
+                    Partnyoruyuq!
+                </h1>
+                <p class="headerP">
+                    Mütəxəssislərimiz Bitrix24 abunəlik planını seçməyinizə kömək edəcək və sizə Bulud( Cloud) və ya
+                    Şirkətdaxili (On-Premise) versiyası üçün əlavə məhsul özəlləşdirmə xidmətləri təqdim edəcək!
+                </p>
+                <form action="#" id="getEmail">
+                    <div class="form-floating">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">E-mail ünvanınız : </label>
+                        <button id="send">Təklif al</button>
+                    </div>
+                </form>
+                <div class="registr-service">
+                    <img src="assets/images/Frame 163.png" style="width: 20px; height: 20px;">
+                    <span>Free Register</span>
+                    <img src="assets/images/Frame 163.png" style="width: 20px; height: 20px;" class="ms-2">
+                    <span>Great Service</span>
+                </div>
+
+                <h4 class="text-center pb-5">Referanslarımız</h4>
+
+                <div class="container Referance-container">
+                    <div class="row">
+                        <div class="d-flex flex-column flex-lg-row">
+                            <div class="col-12 col-lg-5 picturess slider">
+                                <div class="slide-in-right slide">
+                                    <img src="assets/images/cinci-logo.png" alt="CINCI" style="width: 100%;">
+                                </div>
+                                <div class="slide-in-right slide">
+                                    <img src="assets/images/dastanAgro-logo.png" alt="DASTAN AGRO" style="width: 100%;">
+                                </div>
+                                <div class="slide-in-right slide">
+                                    <img src="assets/images/sirinSu-logo.png" alt="SIRIN SU" style="width: 100%;">
+                                </div>
+                                <div class="slide-in-right slide">
+                                    <img src="assets/images/ozgun-logo.png" alt="CINCI" style="width: 100%;">
+                                </div>
+                                <div class="slide-in-right slide">
+                                    <img src="assets/images/entech-logo.png" alt="DASTAN AGRO" style="width: 100%;">
+                                </div>
+                                <div class="slide-in-right slide">
+                                    <img src="assets/images/polymart-logo.png" alt="SIRIN SU" style="width: 100%;">
+                                </div>
+                                <div class="slide-in-right slide">
+                                    <img src="assets/images/bayburt-logo.png" alt="SIRIN SU" style="width: 100%;">
+                                </div>
+                            </div>
+                            <div class="vl d-none d-lg-block col-md-2"></div>
+                            <div class="col-12 col-lg-5">
+                                <p class="Referance pt-1">Sürətlə dəyişən dünyada fürsətləri ələ keçirmək və işlərini
+                                    sona qədər
+                                    idarə
+                                    etmək üçün
+                                    bizimlə
+                                    rəqəmsal çevrilmə səyahətinə çıxan iş ortaqlarımıza təşəkkür edirik!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        </div>
+        </div>
+    </section>
+
+    <div class="all-referance text-center">
+        <button class="mb-5" id="referance-button">Bütün Referanslar</button>
+
+        <div class="row referance-show" id="referance-show-id" style="display: none;">
+            <div class="col-12 col-md-6 col-lg-4 referance-logo">
+                <div>
+                    <a href=""><img src="assets/images/ozgun-logo.png" alt=""></a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 referance-logo">
+                <div>
+                    <a href=""><img src="assets/images/sirinsu-logo.png" alt=""></a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 referance-logo">
+                <div>
+                    <a href=""><img src="assets/images/dastanAgro-logo.png" alt=""></a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 referance-logo">
+                <div>
+                    <a href=""><img src="assets/images/bayburt-logo.png" alt=""></a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 referance-logo">
+                <div>
+                    <a href=""><img src="assets/images/entech-logo.png" alt=""></a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 referance-logo">
+                <div>
+                    <a href=""><img src="assets/images/polymart-logo.png" alt=""></a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 referance-logo">
+                <div>
+                    <a href=""><img src="assets/images/cinci-logo.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="bitrixVideo">
+        <iframe height="315" src="https://www.youtube.com/embed/qqXvFK4Z4cE" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </section>
+
+    <section id="ChooseBitrix">
+        <div class="container">
+            <h1>
+                10.000.000-dan çox təşkilat <br />
+                Bitrix24-ü seçib, siz də seçin!
+            </h1>
+            <button
+                onclick="window.location.href = 'https://www.bitrix24.net/create/?user_lang=en&client_id=site.53889571c99248.40051848&referer=13589683&ga=GA1.2.1964990585.1630310937&bx_fbp=fb.1.1630310937731.1855069505&bx_fbc=fb.1.1643611126999.IwAR2fx4JlgN3QSFnScK-jc9MtbaO45Ll8ywY3at83LFiuFKC50akAekKE25w'">Pulsuz
+                istifadə edin</button>
+            <div class="row">
+                <div
+                    class=" advantages d-flex flex-column flex-lg-row justify-content-center  justify-lg-content-between ">
+
+                    <div class="advantages1 col-12 col-lg-4">
+                        <h6> Uyğun Məhsul Seçmə </h6>
+                        <p>İşləmə şəklinizin və iş proseslərinizin texniki təhlilini aparırıq və bu analizlər
+                            nəticəsində
+                            sizin üçün
+                            ən uyğun Bitrix24 həllini müəyyən edirik. Beləliklə, iş fəaliyyətlərinizin bütün
+                            ehtiyaclarını
+                            qarşılayan həll yolunu ən aşağı qiymətə əldə edirsiniz.</p>
+                    </div>
+                    <div class="advantages2 col-12 col-lg-4">
+                        <h6>İlkin Təlim</h6>
+                        <p>Komandamız tərəfindən istəyinizə uyğun olaraq işçilərə və ya məsul şəxslərə Bitrix24
+                            tətbiqinin
+                            istifadəsi ilə bağlı İlkin Təlim keçiriləcək və istifadəçilər Bitrix24 tətbiqindən istifadə
+                            etmək üçün
+                            bütün lazımi məlumatlara sahib olacaqlar.</p>
+                    </div>
+                    <div class="advantages3 col-12 col-lg-4">
+                        <h6>Davamlı Texniki Yardım və
+                            Məsləhət Xidmət</h6>
+                        <p>Təlimin başa çatması şirkətimizlə olan ortaqlığınızın bitdiyini göstərmir. Sizə davamlı
+                            texniki
+                            yardım
+                            xidməti təqdim edirik, beləliklə, qarşılaşa biləcəyiniz bütün problemlərə qalıcı həllər əldə
+                            edəcəksiniz. 'Buta Grup' ailəsi olaraq etmək istədiyiniz təkmilləşdirmələr də daxil olmaqla
+                            sizə
+                            bütün
+                            mövzularda Məsləhət Xidmətləri təqdim edirik.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="computers">
+        <div class="container2">
+            <div class="carousel">
+                <div style="padding-left: 150px;"><img src="assets/images/comp1.png" /></div>
+                <div style="padding-left: 150px;"><img src="assets/images/comp2.png" /></div>
+                <div style="padding-left: 150px;"><img src="assets/images/comp3.png" /></div>
+                <div style="padding-left: 150px;"><img src="assets/images/comp4.png" /></div>
+            </div>
+            <div class="carousel">
+                <div style="margin-right: 170px;"><img src="assets/images/comp5.png" /></div>
+                <div style="margin-right: 170px;"><img src="assets/images/comp4.png" /></div>
+                <div style="margin-right: 170px;"><img src="assets/images/comp5.png" /></div>
+                <div style="margin-right: 170px;"><img src="assets/images/comp2.png" /></div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="prices">
+        <div class="container">
+            <div class="row">
+                <h2 class="text-center">Qiymətlər</h2>
+                <p class="text-center">Bitrix24 Bulud or Şirkətdaxili lisenziyalarını Buta Grup vasitəsilə alan
+                    qurumlara: <br />
+                    • 12 Aylıq Alışlarda %20 + %20 Bonus ENDİRİM. <br />
+                    • 30 GÜN PULSUZ MƏSLƏHƏT Xidməti təqdim olunur.</p>
+            </div>
+        </div>
+        <div class="container">
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        </div>
+        <div class="cards">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="single-table text-center">
+                            <div class="plan-header">
+                                <h3>FREE</h3>
+                                <p>Bütün Şirkət Üçün Əsas Alət Paketi</p>
+                                <h4 style="color:#7C9B00;">100% Pulsuz</h4>
+                                <p class="pricesPlan">Limitsiz istifadəçi</p>
+                                <p style="padding-bottom: 30px;">5GB</p>
+
+
+                            </div>
+
+
+                            <ul class="plan-features"
+                                style="background-color:#F5FDD6;text-align:left; padding-bottom: 453px;">
+                                <li>Kollaborasiya<img src="assets/images/Frame 160.png" alt=""
+                                        style="padding-left: 22px;">
+                                    <ol>
+                                        <li class="altlist">Söhbət</li>
+                                        <li class="altlist">HD Video Zənglər</li>
+                                        <li class="altlist">Təqvim</li>
+                                        <li class="altlist">Sürücü</li>
+                                        <li class="altlist">Bəsləmə</li>
+                                        <li class="altlist">Məlumat bazası</li>
+
+                                    </ol>
+                                </li>
+                                <hr />
+
+                                <li> Tapşırıq və Layihələr<img src="assets/images/Frame 160.png" alt=""
+                                        style="padding-left: 22px;"></li>
+                                <hr />
+                                <li> CRM <img src="assets/images/Frame 160.png" alt="" style="padding-left: 22px;"></li>
+                                <hr />
+                                <li> Əlaqə Mərkəzi <img src="assets/images/Frame 160.png" alt=""
+                                        style="padding-left: 22px;"></li>
+                                <hr />
+                                <li> Veb Səhifə Qurucusu <img src="assets/images/Frame 160.png" alt=""
+                                        style="padding-left: 22px;"></li>
+                                <hr />
+                                <li>Məhsul Kataloqu və SKU-lar <img src="assets/images/Frame 160.png" alt=""
+                                        style="padding-left: 22px;"></li>
+                                <hr />
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="single-table text-center">
+                            <div class="plan-header">
+                                <h3>BASIC</h3>
+                                <p>Kiçik Satış Komandaları Üçün İdealdır</p>
+                                <h4 style="color:#0085AF;" class="plan-price">$147</h4>
+                                <p class="pricesPlan">5 istifadəçi</p>
+                                <p style="padding-bottom: 30px;">24GB</p>
+                            </div>
+                            <ul class="plan-features"
+                                style="background-color:#E7F9FF;text-align:left; padding-bottom: 29px;">
+                                <li>Kollaborasiya <img src="assets/images/Frame 161.png" alt=""
+                                        style="padding-left: 22px;">
+                                    <ol>
+                                        <li class="altlist">Söhbət</li>
+                                        <li class="altlist">HD Video Zənglər</li>
+                                        <li class="altlist">Təqvim</li>
+                                        <li class="altlist">Sürücü</li>
+                                        <li class="altlist">Bəsləmə</li>
+                                        <li class="altlist">Məlumat bazası</li>
+
+                                    </ol>
+                                    <hr />
+                                </li>
+                                <li>Tapşırıq və Layihələr <img src="assets/images/Frame 161.png" alt=""
+                                        style="padding-left: 22px;"></li>
+                                <hr />
+                                <li>CRM <img src="assets/images/Frame 161.png" alt="" style="padding-left: 22px;">
+                                </li>
+                                <hr />
+                                <li> Əlaqə Mərkəzi<img src="assets/images/Frame 161.png" alt=""
+                                        style="padding-left: 22px;"></li>
+                                <hr />
+                                <li>Veb Səhifə Qurucusu <img src="assets/images/Frame 161.png" alt=""
+                                        style="padding-left: 22px;"></li>
+                                <hr />
+                                <li>Məhsul Kataloqu və SKU-lar <img src="assets/images/Frame 161.png" alt=""
+                                        style="padding-left: 22px;">
+                                </li>
+                                <hr />
+                                <li> Onlayn Mağaza<img src="assets/images/Frame 161.png" alt=""
+                                        style="padding-left: 22px;">
+                                </li>
+                                <hr />
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br />
+                                <br />
+                                <li>Müştəri Dəstəyi</li>
+                                <hr />
+                                <br>
+                                <br>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="single-table text-center">
+                            <div class="plan-header">
+                                <h3>STANDARD</h3>
+                                <p>Bütün Komanda Ehtiyaclarını Qarşılayır</p>
+                                <h4 style="color:#0085AF;" class="plan-price">$297</h4>
+                                <p class="pricesPlan">50 istifadəçi</p>
+                                <p style="padding-bottom: 30px;">100GB</p>
+                            </div>
+
+
+                            <ul class="plan-features"
+                                style="background-color:#E7F9FF;text-align:left; padding-bottom: 3px;">
+                                <li>Kollaborasiya <img src="assets/images/Frame 161.png" alt=""
+                                        style="padding-left: 22px;">
+                                    <ol>
+                                        <li class="altlist">Söhbət</li>
+                                        <li class="altlist">HD Video Zənglər</li>
+                                        <li class="altlist">Təqvim</li>
+                                        <li class="altlist">Sürücü</li>
+                                        <li class="altlist">Bəsləmə</li>
+                                        <li class="altlist">Məlumat bazası</li>
+
+                                    </ol>
+                                </li>
+                                <hr />
+                                <li>Tapşırıq və Layihələr<img src="assets/images/Frame 161.png" alt=""
+                                        style="padding-left: 22px;"></li>
+                                <hr />
+                                <li>CRM <img src="assets/images/Frame 161.png" alt="" style="padding-left: 22px;">
+                                </li>
+                                <hr />
+                                <li>Əlaqə Mərkəzi <img src="assets/images/Frame 161.png" alt=""
+                                        style="padding-left: 22px;"></li>
+                                <hr />
+                                <li>Veb Səhifə Qurucusu <img src="assets/images/Frame 161.png" alt=""
+                                        style="padding-left: 22px;"></li>
+                                <hr />
+                                <li> Məhsul Kataloqu və SKU-lar <img src="assets/images/Frame 161.png" alt=""
+                                        style="padding-left: 22px;">
+                                </li>
+                                <hr />
+                                <li>Onlayn Mağaza <img src="assets/images/Frame 161.png" alt=""
+                                        style="padding-left: 22px;"></li>
+                                <hr />
+                                <li>Marketinq <img src="assets/images/Frame 161.png" alt="" style="padding-left: 22px;">
+                                </li>
+                                <hr />
+                                <li>Onlayn Sənədlər<img src="assets/images/Frame 161.png" alt=""
+                                        style="padding-left: 22px;"></li>
+                                <hr />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <li>Müştəri Dəstəyi</li>
+                                <hr />
+                                <li>İdarəetmə<img src="assets/images/Frame 161.png" alt="" style="padding-left: 22px;">
+                                </li>
+                                <hr />
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="single-table text-center">
+                            <div class="plan-header">
+                                <h3>PROFESSIONAL</h3>
+                                <p>Təşkilatınızı Avtomatlaşdırma Ilə Gücləndirin</p>
+                                <h4 style="color:#0085AF;" class="plan-price">$597</h4>
+                                <p class="pricesPlan">Limitsiz istifadəçi</p>
+                                <p style="padding-bottom: 20px; padding-top: 0px;">1,024GB</p>
+                            </div>
+
+
+                            <ul class="plan-features"
+                                style="background-color:#E7F9FF;text-align:left; padding-bottom: 3px;">
+                                <li>Kollaborasiya <img src="assets/images/Frame 162.png" alt=""
+                                        style="padding-left: 22px;">
+                                    <ol>
+                                        <li class="altlist">Söhbət</li>
+                                        <li class="altlist">HD Video Zənglər</li>
+                                        <li class="altlist">Təqvim</li>
+                                        <li class="altlist">Sürücü</li>
+                                        <li class="altlist">Bəsləmə</li>
+                                        <li class="altlist">Məlumat bazası</li>
+
+                                    </ol>
+                                </li>
+                                <hr />
+                                <li>Tapşırıq və Layihələr <img src="assets/images/Frame 161.png" alt=""
+                                        style="padding-left: 22px;"></li>
+                                <hr />
+                                <li> CRM<img src="assets/images/Frame 161.png" alt="" style="padding-left: 22px;"></li>
+                                <hr />
+                                <li> Əlaqə Mərkəzi<img src="assets/images/Frame 161.png" alt=""
+                                        style="padding-left: 22px;"></li>
+                                <hr />
+                                <li> Veb Səhifə Qurucusu<img src="assets/images/Frame 161.png" alt=""
+                                        style="padding-left: 22px;"></li>
+                                <hr />
+                                <li>Məhsul Kataloqu və SKU-lar <img src="assets/images/Frame 161.png" alt=""
+                                        style="padding-left: 22px;"></li>
+                                <hr />
+                                <li>Onlayn Mağaza<img src="assets/images/Frame 161.png" alt=""
+                                        style="padding-left: 22px;"></li>
+                                <hr />
+                                <li>Marketinq <img src="assets/images/Frame 161.png" alt="" style="padding-left: 22px;">
+                                </li>
+                                <hr />
+                                <li>Onlayn Sənədlər<img src="assets/images/Frame 161.png" alt=""
+                                        style="padding-left: 22px;"></li>
+                                <hr />
+                                <li>Satış Zəkası<img src="assets/images/Frame 161.png" alt=""
+                                        style="padding-left: 22px;"></li>
+                                <hr />
+                                <li>İş Prosesinin Avtomatlaşdırılması <img src="assets/images/Frame 161.png" alt=""
+                                        style="padding-left: 3px;"></li>
+                                <hr />
+                                <li> İR<img src="assets/images/Frame 161.png" alt="" style="padding-left: 22px;"></li>
+                                <hr />
+
+                                <li>Müştəri Dəstəyi</li>
+                                <hr />
+                                <li> İdarəetmə<img src="assets/images/Frame 161.png" alt=""
+                                        style="padding-left: 22px; "></li>
+                                <hr />
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="Price-section">
+        <div class="container">
+            <div class="row">
+                <div class="getPrice col-12 col-lg-8">
+                    <h2>ŞİRKƏTDAXİLİ LİSENZİYA QİYMƏTLƏRİ </h2>
+                    <p>Serverinizdə işlətmək üçün Bitrix24 offline versiyasını
+                        istifadə edin və məlumatlarınıza tam nəzarət edin.</p>
+                </div>
+
+
+                <div class="pricing-items col-6 col-lg-4 text-center">
+                    <div class="pricing-item">
+                        <div class="pricing-item-inner">
+                            <div class="pricing-item-content">
+                                <div class="pricing-item-header">
+                                    <div class="pricing-item-title">
+                                        <p class="pricing-item-title">Aylıq Qiymətləri</p>
+                                    </div>
+                                    <div class="pricing-item-price" data-price-output='{
+                                      "0": ["$", "2.990", ""],
+                                      "1": ["$", "4.990", ""],
+                                      "2": ["$", "8.990", ""],
+                                      "3": ["$", "14.990", ""],
+                                      "4": ["$", "24.990", ""],
+                                      "5": ["$", "45.990", ""],
+                                      "6": ["$", "59.990", ""]
+                                    }'>
+                                        <span class="pricing-item-price-currency">$</span>
+                                        <span class="pricing-item-price-amount">13</span>
+                                        <span class="pricing-item-price-after">/m</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricing-slider col-12">
+                    <label class="form-slider">
+                        <span>İstifadeçinin sayı</span>
+                        <input class="input-range" type="range" data-price-input='{
+                                  "0": "50",
+                                  "1": "100",
+                                  "2": "250",
+                                  "3": "500",
+                                  "4": "1000",
+                                  "5": "5000",
+                                  "6": "UNLIMITED"                      
+                                }' />
+                    </label>
+                    <div class="pricing-slider-value"></div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section id="Program">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <p class="ButaBitrix text-uppercase">Buta grup x bitrix24</p>
+                    <h1>Ehtiyacınız Olan
+                        Yeganə Biznes
+                        Proqramı</h1>
+                    <p class="business">Biznesinizin işləməsi üçün çoxsaylı xidmət və tətbiqləri tək sistemlə əvəz edin.
+                        Bitrix24
+                        alətlərini kəşf edin!
+                    </p>
+                </div>
+                <div class="Programinputs col-12 col-md-6">
+                    <form action="#">
+                        <label for="#">
+                            <input type="text" id="NameSurname" placeholder="Ad, Soyad">
+                        </label>
+                        <label for="#">
+                            <input type="email" id="EmailAddress" placeholder="Email Address">
+                        </label>
+                        <label for="#">
+                            <input type="text" id="YourMessage" placeholder="Mesajınız">
+                        </label>
+                        <button>Göndər</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row footerDiv ">
+                <div class="DivText col-12 col-md-12 col-lg-4">
+                    <img src="assets/images/butalogo.webp" alt="Butagrup" class="ButaGrupFooterLogo">
+                    <p class="footerText">Buta Grup Medya Bilişim Teknoloji A.Ş. tam kapsamlı bilişim grubudur. Yaratıcı
+                        ekibi,
+                        müşterilerinin A’dan Z’ye tüm ihtiyaçlarına hizmet vermektedir. Kurumsal bir firmanın kurumsal
+                        kimliğinin oluşturulmasından başlayıp sosyal medya yönetimi, web tasarım/yazılım, E-Ticaret,
+                        grafik tasarımı, marka korunumu, dijital pazarlama, yazılım geliştirme, danışmanlık gibi
+                        alanlarda işler yapmaktadır.</p>
+                    <a href="https://www.linkedin.com/company/butagruptr/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.facebook.com/butagruptr"><i class="fa-brands fa-facebook-square"></i></a>
+                    <a href="https://www.instagram.com/accounts/login/?next=/butagruptr/"><i
+                            class="fa-brands fa-instagram"></i></a>
+
+                </div>
+                <div id="DivImg" class="col-12 col-md-6 col-lg-4 text-center">
+                    <img src="assets/images/Silver2.webp" alt="CERTIFICATE" class="footerCertifcate" type="button"
+                        class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                </div>
+
+                <div class="pages col-12 col-md-6 col-lg-4 text-center mt-4" style="margin-left: -30px;">
+
+                    <ul class="ms-5 d-lg-block">
+                        <h6>Sayfalar</h6>
+                        <a href="#" class="text-decoration-none">
+                            <li>Ana Sayfa</li>
+                        </a>
+                        <a href="#" class="text-decoration-none">
+                            <li>Hakkımızda</li>
+                        </a>
+                        <a href="#" class="text-decoration-none">
+                            <li>Hizmetler</li>
+                        </a>
+                        <a href="#" class="text-decoration-none">
+                            <li>Ürün ve Çözümler</li>
+                        </a>
+                        <a href="#" class="text-decoration-none">
+                            <li>Referanslar</li>
+                        </a>
+                        <a href="#" class="text-decoration-none">
+                            <li>İletişim</li>
+                        </a>
+                    </ul>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <img src="assets/images/Silver2.webp" alt="CERTIFICATE">
+                </div>
+            </div>
+        </div>
+        <hr />
+        <p class="reserv"><a href="https://www.butagrup.com.tr/" class="text-decoration-none" style="color: #000;">©
+                Buta Grup 2022</a> . Bütün hüquqlar qorunur.</p>
+    </footer>
+
+    <link rel="stylesheet" href="script.js">
+
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
+
+
+    <script src="script.js"></script>
+
+
+
+
+
+</body>
+
+</html>
